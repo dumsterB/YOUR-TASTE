@@ -1,0 +1,90 @@
+/* RecipeList.css */
+
+.recipe-list {
+  margin-top: 100px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+  margin: 8px;
+  background-color: #fff;
+  border: 2px solid #f6921e;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.product-buttons button {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 50%;
+  background-color: #f6921e;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 4px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.product-buttons button:hover {
+  background-color: #fca54d;
+}
+
+.product-count {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #f6921e;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.selected-product {
+  padding: 8px 16px;
+  margin: 8px;
+  background-color: #f6921e;
+  color: #fff;
+  border: 2px solid #f6921e;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-item {
+  padding: 8px;
+  margin: 8px;
+  background-color: #fff;
+  border: 2px solid #f6921e;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.empty-message {
+  /* flex: 1; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #999;
+}
